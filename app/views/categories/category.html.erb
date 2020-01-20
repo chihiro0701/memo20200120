@@ -1,0 +1,21 @@
+<h1><%= @category.name %>'s memo</h1>
+<% @memos. each do |memo| %>
+        <div class="col-sm-4">
+            <div class="panel panel-warning">
+          
+              <div class="panel-heading">
+                <h3 class="panel-title">
+                  <h4><%= memo.title %></h4>
+                  <p><%= memo.category.name %></p>
+                  <div class="bottons">
+                      <a href ="/memos/<%= memo.id %>" data-method="delete"><span class="glyphicon glyphicon-trash"></span>削除</a>
+                      <a href ="/memos/<%= memo.id %>/edit" data-method="get"><span class="glyphicon glyphicon-edit"></span>編集</a>
+                  </div>
+                </h3>
+              </div>
+              <div class="panel-body">
+                <%= memo.body%>
+              </div>
+            </div>
+        </div>    
+    <% end %>
