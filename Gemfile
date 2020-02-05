@@ -53,3 +53,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # ログイン機能のため追加
 gem 'devise'
+#ページング機能追加のため
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'

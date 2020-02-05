@@ -1,7 +1,8 @@
 class MemosController < ApplicationController
     def top #トップページ
-        @memos = Memo.all
+        @memos = Memo.paginate(page: params[:page], per_page: 6)
     end
+    
     
     def new #メモ新規作成
         
