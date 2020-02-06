@@ -1,24 +1,15 @@
-# README
+# メモアプリ
+- 投稿、編集、削除機能。
+- ログイン機能追加、６個以上のメモで次のページへ移動機能追加。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+# 構成
+- MVCパターン、CRUD処理を学びながら作成。
+- 応用が効くようにシンプルなデザインに。
+- gemを今後も色々試したい。
 
 * Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+2.6.3
+* Rails version
+5.0.7.2
 
 * ...
